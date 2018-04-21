@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Bob Zhang's Home Page
-subtitle: Also Bowen Zhang is me.
+title: NO ACTION, NO CHANGE
+subtitle: Man's achievements and differences are determined by his free time -- Albert.Einstein.
 description:
 author: Bobz
-language: English
-timezone: zh-cn
+language: en-US
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://howbigbobo.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:title/
 permalink_defaults:
 
 # Directory
@@ -72,11 +72,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: bootstrap-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/howbigbobo/howbigbobo.github.io.git
+  repo: git@github.com:howbigbobo/howbigbobo.github.io.git
   branch: master
+  message: Update blog post.
